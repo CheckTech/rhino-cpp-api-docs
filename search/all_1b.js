@@ -488,6 +488,7 @@ var searchData=
   ['_7eirhinopropertiespanelpage',['~IRhinoPropertiesPanelPage',['../class_i_rhino_properties_panel_page.html#a564ded89bad0cf6c5ef8284db46501a0',1,'IRhinoPropertiesPanelPage']]],
   ['_7eirhinopropertiespanelpageeventargs',['~IRhinoPropertiesPanelPageEventArgs',['../class_i_rhino_properties_panel_page_event_args.html#a7bcaa950c3319104eab36d42d0c0e8c7',1,'IRhinoPropertiesPanelPageEventArgs']]],
   ['_7eirhinopropertiespanelpagehost',['~IRhinoPropertiesPanelPageHost',['../class_i_rhino_properties_panel_page_host.html#a8b925111bf00c3c4a64b37737a330150',1,'IRhinoPropertiesPanelPageHost']]],
+  ['_7eirhinosnapshotsclient',['~IRhinoSnapshotsClient',['../class_i_rhino_snapshots_client.html#a8795d1d6ceaac3d4cb950ede648f8f13',1,'IRhinoSnapshotsClient']]],
   ['_7eirhinouicontroller',['~IRhinoUiController',['../class_i_rhino_ui_controller.html#aca45d788048664383234917ee62e3b28',1,'IRhinoUiController']]],
   ['_7eirhinouicontrollereventwatcher',['~IRhinoUiControllerEventWatcher',['../class_i_rhino_ui_controller_event_watcher.html#ac3db7e6a275d75bfa10ac256c71435a3',1,'IRhinoUiControllerEventWatcher']]],
   ['_7eirhinouidatasource',['~IRhinoUiDataSource',['../class_i_rhino_ui_data_source.html#adc4b4c122ec31a06a199e39dc6e31731',1,'IRhinoUiDataSource']]],

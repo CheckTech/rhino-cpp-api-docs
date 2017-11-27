@@ -437,6 +437,7 @@ var searchData=
   ['iscreating',['IsCreating',['../class_c_rhino_doc.html#a07c257c139404ad2a880f09c754359a4',1,'CRhinoDoc']]],
   ['iscsxevent',['IsCSXEvent',['../class_o_n___x___e_v_e_n_t.html#af0cf6eae8531b41204339c64d6e080c8',1,'ON_X_EVENT']]],
   ['iscurrent',['IsCurrent',['../class_o_n___aggregate_component_status.html#a720997984a5a3409b27f935318b8a915',1,'ON_AggregateComponentStatus']]],
+  ['iscurrentmodelstateinanysnapshot',['IsCurrentModelStateInAnySnapshot',['../class_i_rhino_snapshots_client.html#a54ce79f8d84738a8d5c84b6492ab8004',1,'IRhinoSnapshotsClient::IsCurrentModelStateInAnySnapshot(CRhinoDoc &amp;doc, const ON_Buffer &amp;bufferModel, const ON_SimpleArray&lt; const ON_Buffer *&gt; &amp;aSnapShots, ON_TextLog *pReportMissing=nullptr) const =0'],['../class_i_rhino_snapshots_client.html#aed09dfc34a6d6fedf3cfaeea6db69069',1,'IRhinoSnapshotsClient::IsCurrentModelStateInAnySnapshot(CRhinoDoc &amp;doc, const CRhinoObject &amp;obj, const ON_Buffer &amp;bufferModel, const ON_SimpleArray&lt; const ON_Buffer *&gt; &amp;aSnapShots, ON_TextLog *pReportMissing=nullptr) const =0']]],
   ['iscurveevent',['IsCurveEvent',['../class_o_n___s_s_x___e_v_e_n_t.html#ab567549147e34d99575ff990eb1c8f57',1,'ON_SSX_EVENT']]],
   ['iscustomunitsystem',['IsCustomUnitSystem',['../class_o_n___unit_system.html#a3f110b66faf6505f3898122280d050c3',1,'ON_UnitSystem']]],
   ['iscylinder',['IsCylinder',['../class_o_n___surface.html#afa2b7070ae8c79bf6a0e85b4f8839286',1,'ON_Surface']]],

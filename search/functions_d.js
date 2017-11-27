@@ -207,6 +207,7 @@ var searchData=
   ['meshinstanceid',['MeshInstanceId',['../class_rh_rdk_1_1_realtime_1_1_change_queue_1_1_dynamic_object.html#a5b497d0b832dbfc5720efa3ad39cbfa1',1,'RhRdk::Realtime::ChangeQueue::DynamicObject::MeshInstanceId()'],['../class_rh_rdk_1_1_realtime_1_1_change_queue_1_1_material.html#a1a38c92892893c37243e1a59f514c43a',1,'RhRdk::Realtime::ChangeQueue::Material::MeshInstanceId()']]],
   ['meshinstancescountforbaseid',['MeshInstancesCountForBaseId',['../class_rh_rdk_1_1_realtime_1_1_change_queue.html#ac2ea61aabc31ddd56d7ae9d48e952735',1,'RhRdk::Realtime::ChangeQueue']]],
   ['meshinversetransform',['MeshInverseTransform',['../class_o_n___mesh_x.html#a460a92ca11372f21662462d5d7131a0d',1,'ON_MeshX']]],
+  ['meshmodifierscategory',['MeshModifiersCategory',['../class_i_rhino_snapshots_client.html#a14b8719580a32a8eca76242ed70827fb',1,'IRhinoSnapshotsClient']]],
   ['meshngon',['MeshNgon',['../class_o_n___mesh_component_ref.html#abb0a14a503564806d48052f62ba38724',1,'ON_MeshComponentRef::MeshNgon(class ON_MeshNgonBuffer &amp;ngon_buffer) const'],['../class_o_n___mesh_component_ref.html#a5e564e7e7d8283867aec142a4dccaf1c',1,'ON_MeshComponentRef::MeshNgon() const']]],
   ['meshngonindex',['MeshNgonIndex',['../class_o_n___mesh_component_ref.html#a284fa5da0345dac3f3c45e12255b43b2',1,'ON_MeshComponentRef']]],
   ['meshparameteridfromunsigned',['MeshParameterIdFromUnsigned',['../class_o_n___mesh_parameters.html#a3794edd6bcf92d6469e4f1952dc6865f',1,'ON_MeshParameters']]],

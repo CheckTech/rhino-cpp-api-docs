@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Rhino C++ SDK Help
-   &#160;<span id="projectnumber">6.0</span>
+   &#160;<span id="projectnumber">6.0 BETA</span>
    </div>
   </td>
  </tr>
@@ -1430,7 +1430,7 @@ $(function() {
 : <a class="el" href="class_c_rh_rdk_texture.html#acd3a1c9f6a8b7213af4b88adb3835a7f">CRhRdkTexture</a>
 </li>
 <li>Equal()
-: <a class="el" href="class_o_n___string.html#a8ac1fb0440df316d0f79347c660ed97d">ON_String</a>
+: <a class="el" href="class_o_n___string.html#a800984c304afe916c670834df4d5b62c">ON_String</a>
 , <a class="el" href="class_o_n__w_string.html#acba7228d1c708d8e403cf6442f26fc26">ON_wString</a>
 </li>
 <li>EqualAttributeName()
@@ -1704,7 +1704,7 @@ $(function() {
 , <a class="el" href="class_o_n___surface_proxy.html#ac229e520c42a00099bc81509849eee99">ON_SurfaceProxy</a>
 , <a class="el" href="class_o_n___surface_tree_node.html#a7ed9388a41d920100c1d126a4d3bf06b">ON_SurfaceTreeNode</a>
 , <a class="el" href="class_o_n___tensor_product.html#a86429e599cb980bc348a58f7d9d751d5">ON_TensorProduct</a>
-, <a class="el" href="class_o_n___texture_mapping.html#ac24bdf7e091dd0db8b96f0b60dbefda4">ON_TextureMapping</a>
+, <a class="el" href="class_o_n___texture_mapping.html#a585d55bec1eb924681c70f722f8785fe">ON_TextureMapping</a>
 </li>
 <li>EvaluateBoxMapping()
 : <a class="el" href="class_o_n___texture_mapping.html#a72617f0835a94276990850841c6b914e">ON_TextureMapping</a>
@@ -1906,6 +1906,7 @@ $(function() {
 , <a class="el" href="class_c_rh_rdk_texture.html#a776526c3d7f923585308b2877ffa6efd">CRhRdkTexture</a>
 , <a class="el" href="class_c_rh_rdk_texture_evaluator.html#a028e89b5cc3689584c8e5433fc63923b">CRhRdkTextureEvaluator</a>
 , <a class="el" href="class_i_auto_u_i_extra_requirements.html#a24298f9f1570e1d449fae1e029e057f5">IAutoUIExtraRequirements</a>
+, <a class="el" href="class_i_rhino_snapshots_client.html#a1becbf4950223d2243b9f59184d5588f">IRhinoSnapshotsClient</a>
 , <a class="el" href="class_i_rhino_ui_controller_event_watcher.html#aba95dcc81cb4a508c1c453aaa9b11154">IRhinoUiControllerEventWatcher</a>
 , <a class="el" href="class_i_rhino_ui_data_source.html#a6ce56a55a514e3223b758414ec298279">IRhinoUiDataSource</a>
 , <a class="el" href="class_i_rhino_ui_data_source_event_watcher.html#aa6ff5f7c126c6c4f1daa4350a07914b1">IRhinoUiDataSourceEventWatcher</a>
@@ -2030,8 +2031,8 @@ $(function() {
 , <a class="el" href="class_rh_rdk_1_1_realtime_1_1_i_signal_update.html#a02447b60afaa75ab68ed6a1c36a4d16f">RhRdk::Realtime::ISignalUpdate</a>
 </li>
 <li>EvNormal()
-: <a class="el" href="class_o_n___surface.html#aa85e2a07c4992d2ab09080c373a04554">ON_Surface</a>
-, <a class="el" href="class_o_n___triangle_mesh.html#a08bb4d34de02fc4a5e9659f7f0a678ee">ON_TriangleMesh</a>
+: <a class="el" href="class_o_n___surface.html#af6a7e891aabbb7b5a170dae9bbb3dc45">ON_Surface</a>
+, <a class="el" href="class_o_n___triangle_mesh.html#a874ee4406027b28d0560bc2cd1498f88">ON_TriangleMesh</a>
 </li>
 <li>EvPoint()
 : <a class="el" href="class_o_n___bezier_curve.html#a7f9c7141aba78552ad63ba19189dc7e8">ON_BezierCurve</a>
@@ -2040,7 +2041,7 @@ $(function() {
 , <a class="el" href="class_o_n___triangle_mesh.html#af2c071823171832c3fe27c26ae0ed01c">ON_TriangleMesh</a>
 </li>
 <li>EvPointAndNormal()
-: <a class="el" href="class_o_n___triangle_mesh.html#a0c9ba20ad4231a1f917a5f6767abb85f">ON_TriangleMesh</a>
+: <a class="el" href="class_o_n___triangle_mesh.html#a1eb2efff2f308a6af9df079813cbcf84">ON_TriangleMesh</a>
 </li>
 <li>EvSrfDerivatives()
 : <a class="el" href="class_c_rhino_poly_edge.html#affd561b981386dd114b2916f2d45ccec">CRhinoPolyEdge</a>
@@ -2187,6 +2188,12 @@ $(function() {
 , <a class="el" href="class_o_n___sum_surface.html#ad8827236cbcba590944688175614cfd3">ON_SumSurface</a>
 , <a class="el" href="class_o_n___surface.html#a9242e8a46e876db63423ce7d6f3f1ef8">ON_Surface</a>
 </li>
+<li>ExtendBoundingBoxForDocumentAnimation()
+: <a class="el" href="class_i_rhino_snapshots_client.html#a54843d3c2c6b22899a0f67c355e3ec64">IRhinoSnapshotsClient</a>
+</li>
+<li>ExtendBoundingBoxForObjectAnimation()
+: <a class="el" href="class_i_rhino_snapshots_client.html#aedc50b3384f100bbfd50584fe18b9cf4">IRhinoSnapshotsClient</a>
+</li>
 <li>ExtendContextMenu()
 : <a class="el" href="class_c_rhino_context_menu_extension.html#a7d20ed5caf54fa3ff78e6f07409fc5f4">CRhinoContextMenuExtension</a>
 </li>
@@ -2216,7 +2223,7 @@ $(function() {
 </li>
 <li>Extents()
 : <a class="el" href="class_o_n___plane_surface.html#a096ebaf2ed57790e48cd0e6d587fff50">ON_PlaneSurface</a>
-, <a class="el" href="class_o_n___viewport.html#a195afee71c9db8f4cbf3e4091583030f">ON_Viewport</a>
+, <a class="el" href="class_o_n___viewport.html#ae48ac9cd35059f9f4d3c8bf6fd86620b">ON_Viewport</a>
 </li>
 <li>ExtExtension()
 : <a class="el" href="class_o_n___dim_style.html#aecd11e74aaa7376473883b4bc71cb831">ON_DimStyle</a>
@@ -2287,7 +2294,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Nov 23 2017 09:03:28 for Rhino C++ SDK Help by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Nov 27 2017 10:49:43 for Rhino C++ SDK Help by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
