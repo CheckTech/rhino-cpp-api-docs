@@ -70,7 +70,6 @@ var searchData=
   ['makevisible',['MakeVisible',['../class_c_rhino_open_document_options.html#a4393d8f34f2bd379d183eeab6adeab11',1,'CRhinoOpenDocumentOptions']]],
   ['malloc',['Malloc',['../class_c_rhino_app.html#a2f61fb875e00be90911d742b83d4ba87',1,'CRhinoApp']]],
   ['managedfont',['ManagedFont',['../class_o_n___font.html#af2a9a876471b5287ba4f3535fd76d681',1,'ON_Font']]],
-  ['managedfonts',['ManagedFonts',['../class_o_n___managed_fonts.html#a923194290533a0cc12e6b4b1ddbfcd96',1,'ON_ManagedFonts']]],
   ['managedfontserialnumber',['ManagedFontSerialNumber',['../class_o_n___font.html#afe31815f4447196731e3e1ab779b0f00',1,'ON_Font']]],
   ['managedglyph',['ManagedGlyph',['../class_o_n___font_glyph.html#abef4a9233dbdb5501e36d1a298e23da6',1,'ON_FontGlyph']]],
   ['manifest',['Manifest',['../class_o_n___binary_archive.html#a37466761f29c81f104974b146a22e2d5',1,'ON_BinaryArchive::Manifest()'],['../class_o_n_x___model.html#a70eba676014cc0e52d093a8e4206eb16',1,'ONX_Model::Manifest()'],['../class_c_rhino_doc.html#aa80160f99cf7563b92f8237aea72bd8e',1,'CRhinoDoc::Manifest()']]],
