@@ -137,7 +137,7 @@ var searchData=
   ['app_5fstate_5fonclose_5funsavedcancel',['app_state_OnClose_UnsavedCancel',['../class_c_rhino_app.html#ab4af4e24c98694320129692164fcca97a58ce839898108f29534edbcaaef9d41f',1,'CRhinoApp']]],
   ['appearance_5fcolumn',['appearance_column',['../class_c_rhino_ui_linetype_list_ctrl.html#a45f2af12ad0dc304cdf04e9d7c2dbcaca53a7e59dc77a8f33ee4416e4cdb3aeb0',1,'CRhinoUiLinetypeListCtrl::appearance_column()'],['../class_c_rhino_ui_print_width_list_ctrl.html#aa21c2271fd962c1b361e26cb7f481d39a52db6af2d14a314c2141b08653f62359',1,'CRhinoUiPrintWidthListCtrl::appearance_column()']]],
   ['apple',['Apple',['../class_o_n.html#ac15804e07d1c7a04a29e38581b20523ba9f6290f4436e5a2351f12e03b6433c3c',1,'ON']]],
-  ['applensfont',['AppleNSFont',['../class_o_n___font.html#a59528ef21572a6eaf5038ba1b0d2c3d0a5879a6f3922ac4d909bf105c4f36d878',1,'ON_Font']]],
+  ['applefont',['AppleFont',['../class_o_n___font.html#a59528ef21572a6eaf5038ba1b0d2c3d0a48ecc9fbd5aca6c321bf8e34b4b451c6',1,'ON_Font']]],
   ['applybutton',['ApplyButton',['../group___rhino.html#gga454f343b791cb8b875b0c38d7b918b40a1a9583fb815b222e38d8d873f7db71f0',1,'RhinoSdkPages.h']]],
   ['arc',['Arc',['../class_c_rhino_extend.html#a5df4f19378df0c0316da7d5fa6df01cca3154e1dabd949e9323979e84ec22b062',1,'CRhinoExtend::Arc()'],['../class_c_rhino_dim_angular.html#a469993662ec49f99f10d327eb93c3f66a2b73f91683611c489560a1d163e37902',1,'CRhinoDimAngular::Arc()']]],
   ['arc_5ftype',['arc_type',['../class_c_args_rhino_get_circle.html#ac43e3c47afd4faa38f68bdc2cb118e96ab09a21a774210d737817d691e1e367b5',1,'CArgsRhinoGetCircle']]],

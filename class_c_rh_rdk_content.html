@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Rhino C++ SDK Help: CRhRdkContent Class Reference</title>
+<title>Rhino C++ API: CRhRdkContent Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,8 +21,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Rhino C++ SDK Help
-   &#160;<span id="projectnumber">6.2</span>
+   <div id="projectname">Rhino C++ API
+   &#160;<span id="projectnumber">6.3</span>
    </div>
   </td>
  </tr>
@@ -326,6 +326,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9ed424b8ca5d11ec15cec3af42643742"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3019199dfaf2e5bd05ab4fe36a372f92"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_o_n__w_string.html">ON_wString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_rh_rdk_content.html#a3019199dfaf2e5bd05ab4fe36a372f92">DragText</a> (const UUID &amp;uuidSource) const</td></tr>
 <tr class="separator:a3019199dfaf2e5bd05ab4fe36a372f92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a265b21d5f6791290b03032272087a070"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_n__w_string.html">ON_wString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_rh_rdk_content.html#a265b21d5f6791290b03032272087a070">DragTextEx</a> (const UUID &amp;uuidSource, int version, void *) const</td></tr>
+<tr class="separator:a265b21d5f6791290b03032272087a070"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afcec2c7bc604b0117f09a8ef6470cdd3"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="class_c_rh_rdk_content.html">CRhRdkContent</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_rh_rdk_content.html#afcec2c7bc604b0117f09a8ef6470cdd3">Duplicate</a> (void) const</td></tr>
 <tr class="separator:afcec2c7bc604b0117f09a8ef6470cdd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2a4a18916d2d03cce80bf33ac93b754"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_i_auto_u_i_extra_requirements.html">IAutoUIExtraRequirements</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_rh_rdk_content.html#ab2a4a18916d2d03cce80bf33ac93b754">DuplicateExtraRequirementsInterface</a> (void) const</td></tr>
@@ -2629,6 +2631,40 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a265b21d5f6791290b03032272087a070"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a265b21d5f6791290b03032272087a070">&#9670;&nbsp;</a></span>DragTextEx()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_n__w_string.html">ON_wString</a> CRhRdkContent::DragTextEx </td>
+          <td>(</td>
+          <td class="paramtype">const UUID &amp;&#160;</td>
+          <td class="paramname"><em>uuidSource</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>version</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="afcec2c7bc604b0117f09a8ef6470cdd3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afcec2c7bc604b0117f09a8ef6470cdd3">&#9670;&nbsp;</a></span>Duplicate()</h2>
 
@@ -3562,7 +3598,7 @@ If you override this method, <b>please be sure to call the base class</b>. </dd>
 
 <p>Implements <a class="el" href="class_i_auto_u_i_extra_requirements.html#a70d829593726f3657c80de53fe6f888b">IAutoUIExtraRequirements</a>.</p>
 
-<p>Reimplemented in <a class="el" href="class_c_rh_rdk_basic_material.html#a5f311f3a249f5c925113374e5f0d5514">CRhRdkBasicMaterial</a>, <a class="el" href="class_c_rh_rdk_two_color_texture_base.html#ae70b2839914e5451cc5d3c0f0675aab9">CRhRdkTwoColorTextureBase</a>, and <a class="el" href="class_c_rh_rdk_one_color_texture_base.html#a69d5eb603e3cd9a575e753d95702f0df">CRhRdkOneColorTextureBase</a>.</p>
+<p>Reimplemented in <a class="el" href="class_c_rh_rdk_two_color_texture_base.html#ae70b2839914e5451cc5d3c0f0675aab9">CRhRdkTwoColorTextureBase</a>, <a class="el" href="class_c_rh_rdk_basic_material.html#a5f311f3a249f5c925113374e5f0d5514">CRhRdkBasicMaterial</a>, and <a class="el" href="class_c_rh_rdk_one_color_texture_base.html#a69d5eb603e3cd9a575e753d95702f0df">CRhRdkOneColorTextureBase</a>.</p>
 
 </div>
 </div>
@@ -6865,7 +6901,7 @@ The copied contents will be found by <a class="el" href="group___r_d_k.html#ga1c
 
 <p>Implements <a class="el" href="class_i_auto_u_i_extra_requirements.html#a7b4470985a5c415c880a0b74a3d7a127">IAutoUIExtraRequirements</a>.</p>
 
-<p>Reimplemented in <a class="el" href="class_c_rh_rdk_basic_material.html#adbc05548def4bd26f50d0a2e93d2b4b8">CRhRdkBasicMaterial</a>.</p>
+<p>Reimplemented in <a class="el" href="class_c_rh_rdk_basic_material.html#adbc05548def4bd26f50d0a2e93d2b4b8">CRhRdkBasicMaterial</a>, <a class="el" href="class_c_rh_rdk_two_color_texture_base.html#aa67a7afaaf0b6f600d8f30e506569b69">CRhRdkTwoColorTextureBase</a>, and <a class="el" href="class_c_rh_rdk_one_color_texture_base.html#a4faa79766a7e765a79b31229b0f8a9bb">CRhRdkOneColorTextureBase</a>.</p>
 
 </div>
 </div>
@@ -8423,7 +8459,7 @@ Your XML must be contained within a section called<pre class="fragment"> &lt;par
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Mar 7 2018 04:35:33 for Rhino C++ SDK Help by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Apr 3 2018 17:53:53 for Rhino C++ API by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

@@ -24,6 +24,7 @@ var searchData=
   ['on_5feurosign',['ON_EuroSign',['../group__open_n_u_r_b_s.html#gga430f062290196f7f81bf0bf9dda7ba09af8d5271e21958b4b1226cb8b3297ab96',1,'opennurbs_unicode.h']]],
   ['on_5fformfeed',['ON_FormFeed',['../group__open_n_u_r_b_s.html#gga430f062290196f7f81bf0bf9dda7ba09a016be22cfaa114b463f6e5299fd4be0b',1,'opennurbs_unicode.h']]],
   ['on_5fgreekalpha',['ON_GreekAlpha',['../group__open_n_u_r_b_s.html#gga430f062290196f7f81bf0bf9dda7ba09a8af51ffb6d6044babd5efb5bf612caf0',1,'opennurbs_unicode.h']]],
+  ['on_5fhyphenminus',['ON_HyphenMinus',['../group__open_n_u_r_b_s.html#gga430f062290196f7f81bf0bf9dda7ba09aed5ca1873924a779e374f9aab7a19aa3',1,'opennurbs_unicode.h']]],
   ['on_5finvalidcodepoint',['ON_InvalidCodePoint',['../group__open_n_u_r_b_s.html#gga430f062290196f7f81bf0bf9dda7ba09a4addc25cce62061165dd42a06cb36036',1,'opennurbs_unicode.h']]],
   ['on_5fjapaneserhinoceros',['ON_JapaneseRhinoceros',['../group__open_n_u_r_b_s.html#gga430f062290196f7f81bf0bf9dda7ba09a1474eddce6be11527869d38b30fe93c7',1,'opennurbs_unicode.h']]],
   ['on_5fjapanesetree',['ON_JapaneseTree',['../group__open_n_u_r_b_s.html#gga430f062290196f7f81bf0bf9dda7ba09af04f614a0ab23f246ae87bc65f0e1338',1,'opennurbs_unicode.h']]],

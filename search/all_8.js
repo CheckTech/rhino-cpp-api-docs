@@ -258,5 +258,6 @@ var searchData=
   ['hwb_5fmenu_5fbar',['HWB_MENU_BAR',['../class_c_rhino_app.html#a58f83180228a9afa6ddb3ca450907dd0a7c6b0b510072d5565db1881fe3fc392b',1,'CRhinoApp']]],
   ['hwb_5fstatus_5fbar',['HWB_STATUS_BAR',['../class_c_rhino_app.html#a58f83180228a9afa6ddb3ca450907dd0afc4d7ed83b99cf28b6cea596a15fc34a',1,'CRhinoApp']]],
   ['hwb_5ftitle_5fbar',['HWB_TITLE_BAR',['../class_c_rhino_app.html#a58f83180228a9afa6ddb3ca450907dd0a1c1b162ef36373b034c8802e5ea4269a',1,'CRhinoApp']]],
-  ['hyperbola',['hyperbola',['../class_o_n.html#a75241e8ca30ddd4f4e999d1e32de8efeade5dec811ffafc7e19cb8b9951f5c2ca',1,'ON::hyperbola()'],['../group___rhino.html#gga1a8a31c978b382b16ef899c75e0486d4a2af03ca39974cae19a90cdad5a5f3230',1,'Hyperbola():&#160;rhinoSdkUtilities.h']]]
+  ['hyperbola',['hyperbola',['../class_o_n.html#a75241e8ca30ddd4f4e999d1e32de8efeade5dec811ffafc7e19cb8b9951f5c2ca',1,'ON::hyperbola()'],['../group___rhino.html#gga1a8a31c978b382b16ef899c75e0486d4a2af03ca39974cae19a90cdad5a5f3230',1,'Hyperbola():&#160;rhinoSdkUtilities.h']]],
+  ['hyphenminus',['HyphenMinus',['../class_o_n___string.html#a6c0782c382d44f6c7b7d3a0727dc914a',1,'ON_String::HyphenMinus()'],['../class_o_n__w_string.html#a62679c8e5bf956d1dc1c19506902a109',1,'ON_wString::HyphenMinus()']]]
 ];
