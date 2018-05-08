@@ -20,6 +20,7 @@ var searchData=
   ['on_5f3dex',['ON_3dex',['../class_o_n__3dex.html',1,'']]],
   ['on_5f3dm_5fbig_5fchunk',['ON_3DM_BIG_CHUNK',['../class_o_n__3_d_m___b_i_g___c_h_u_n_k.html',1,'']]],
   ['on_5f3dm_5fchunk',['ON_3DM_CHUNK',['../struct_o_n__3_d_m___c_h_u_n_k.html',1,'']]],
+  ['on_5f3dmanimationproperties',['ON_3dmAnimationProperties',['../class_o_n__3dm_animation_properties.html',1,'']]],
   ['on_5f3dmannotationcontext',['ON_3dmAnnotationContext',['../class_o_n__3dm_annotation_context.html',1,'']]],
   ['on_5f3dmannotationsettings',['ON_3dmAnnotationSettings',['../class_o_n__3dm_annotation_settings.html',1,'']]],
   ['on_5f3dmapplication',['ON_3dmApplication',['../class_o_n__3dm_application.html',1,'']]],

@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Rhino C++ API
-   &#160;<span id="projectnumber">6.3</span>
+   &#160;<span id="projectnumber">6.4</span>
    </div>
   </td>
  </tr>
@@ -113,6 +113,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n__3_d_m___b_i_g___c_h_u_n_k.html">ON_3DM_BIG_CHUNK</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_o_n__3_d_m___c_h_u_n_k.html">ON_3DM_CHUNK</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n__3dm_animation_properties.html">ON_3dmAnimationProperties</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_n__3dm_annotation_context.html">ON_3dmAnnotationContext</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2016,6 +2018,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:ga877e18266b1124c61c923b319c5427bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaca3be08eebef4a50403639f4602c6407"><td class="memItemLeft" align="right" valign="top">typedef bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__open_n_u_r_b_s.html#gaca3be08eebef4a50403639f4602c6407">ON_PLUS_FUNCTION_TransformBrepComponents</a>) (<a class="el" href="class_o_n___brep.html">ON_Brep</a> *, int, const <a class="el" href="class_o_n___c_o_m_p_o_n_e_n_t___i_n_d_e_x.html">ON_COMPONENT_INDEX</a> *, <a class="el" href="class_o_n___xform.html">ON_Xform</a>, double, double, bool)</td></tr>
 <tr class="separator:gaca3be08eebef4a50403639f4602c6407"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae3fccdaf95d0ef5a5110071f699b9e23"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__open_n_u_r_b_s.html#gae3fccdaf95d0ef5a5110071f699b9e23">ON_SSLMTC_PROC</a>) (int msg_type, const <a class="el" href="class_o_n__w_string.html">ON_wString</a> *pClass, const <a class="el" href="class_o_n__w_string.html">ON_wString</a> *pEventDesc, const <a class="el" href="class_o_n__w_string.html">ON_wString</a> *pMessage)</td></tr>
+<tr class="separator:gae3fccdaf95d0ef5a5110071f699b9e23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa68f2582241a3e60e96e828851703abc"><td class="memItemLeft" align="right" valign="top">typedef bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__open_n_u_r_b_s.html#gaa68f2582241a3e60e96e828851703abc">ON_StreamCallbackFunction</a>) (void *context, <a class="el" href="group__open_n_u_r_b_s.html#gaea03c6f4bab106103ada72c766f7fe5c">ON__UINT32</a> size, const void *buffer)</td></tr>
 <tr class="separator:gaa68f2582241a3e60e96e828851703abc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga218e8e10810212570ac6da99bc676603"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="struct_o_n___u_u_i_d__struct.html">ON_UUID_struct</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__open_n_u_r_b_s.html#ga218e8e10810212570ac6da99bc676603">ON_UUID</a></td></tr>
@@ -2110,6 +2114,17 @@ Enumerations</h2></td></tr>
 <a class="el" href="group__open_n_u_r_b_s.html#gga286869b78f5da2ac0b9513870aad3b28ae1ba155a9f2e8c3be94020eef32a0301">ON_FocalBlurModes::Manual</a>
  }</td></tr>
 <tr class="separator:ga286869b78f5da2ac0b9513870aad3b28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7396c5ac81bf2400211f68669416178f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__open_n_u_r_b_s.html#ga7396c5ac81bf2400211f68669416178f">ON_LogMessageType</a> : int { <br />
+&#160;&#160;<a class="el" href="group__open_n_u_r_b_s.html#gga7396c5ac81bf2400211f68669416178faad921d60486366258809553a3db49a4a">ON_LogMessageType::unknown</a> = 0, 
+<a class="el" href="group__open_n_u_r_b_s.html#gga7396c5ac81bf2400211f68669416178fabb3ccd5881d651448ded1dac904054ac">ON_LogMessageType::information</a> = 1, 
+<a class="el" href="group__open_n_u_r_b_s.html#gga7396c5ac81bf2400211f68669416178fa7b83d3f08fa392b79e3f553b585971cd">ON_LogMessageType::warning</a> = 2, 
+<a class="el" href="group__open_n_u_r_b_s.html#gga7396c5ac81bf2400211f68669416178facb5e100e5a9a3e7f6d1fd97512215282">ON_LogMessageType::error</a> = 3, 
+<br />
+&#160;&#160;<a class="el" href="group__open_n_u_r_b_s.html#gga7396c5ac81bf2400211f68669416178fae44e4612f62d2fb8f8738bab118a9850">ON_LogMessageType::assert</a> = 4
+<br />
+ }<tr class="memdesc:ga7396c5ac81bf2400211f68669416178f"><td class="mdescLeft">&#160;</td><td class="mdescRight">#include "opennurbs_plus_validate.h"  <a href="group__open_n_u_r_b_s.html#ga7396c5ac81bf2400211f68669416178f">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:ga7396c5ac81bf2400211f68669416178f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab65fd8bd984e031483aea362a4405a14"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__open_n_u_r_b_s.html#gab65fd8bd984e031483aea362a4405a14">ON_StringMapOrdinalType</a> : int { <a class="el" href="group__open_n_u_r_b_s.html#ggab65fd8bd984e031483aea362a4405a14ac9c5c65fb4af9cf90eb99b3b84424189">ON_StringMapOrdinalType::Identity</a> = 0, 
 <a class="el" href="group__open_n_u_r_b_s.html#ggab65fd8bd984e031483aea362a4405a14ab8b13f5230ee3c05a76fa09984f788ee">ON_StringMapOrdinalType::UpperOrdinal</a> = 1, 
 <a class="el" href="group__open_n_u_r_b_s.html#ggab65fd8bd984e031483aea362a4405a14aeaac4eab90c140756ee1b20674e9c38a">ON_StringMapOrdinalType::LowerOrdinal</a> = 2, 
@@ -2584,6 +2599,8 @@ Functions</h2></td></tr>
 <tr class="separator:ga844bdb0ef9c52ec9d463d407202a4fe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga96f81778e55428c6edda300c8a7a5586"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__open_n_u_r_b_s.html#ga59fb488a26cef0e7bf900a815eb92b88">ON_DECL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__open_n_u_r_b_s.html#ga96f81778e55428c6edda300c8a7a5586">ON_ClosedCurveOrientation</a> (const <a class="el" href="class_o_n___curve.html">ON_Curve</a> &amp;curve, const <a class="el" href="class_o_n___xform.html">ON_Xform</a> *xform)</td></tr>
 <tr class="separator:ga96f81778e55428c6edda300c8a7a5586"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1cf9959197da04320f51ab032abfa321"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__open_n_u_r_b_s.html#ga59fb488a26cef0e7bf900a815eb92b88">ON_DECL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__open_n_u_r_b_s.html#ga1cf9959197da04320f51ab032abfa321">ON_ClosedCurveOrientation</a> (const <a class="el" href="class_o_n___curve.html">ON_Curve</a> &amp;curve, const <a class="el" href="class_o_n___plane.html">ON_Plane</a> &amp;plane)</td></tr>
+<tr class="separator:ga1cf9959197da04320f51ab032abfa321"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gadb2ea749d26e731ebd5b51722d17cb76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__open_n_u_r_b_s.html#ga59fb488a26cef0e7bf900a815eb92b88">ON_DECL</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__open_n_u_r_b_s.html#gadb2ea749d26e731ebd5b51722d17cb76">ON_ClosestPointAngle</a> (const <a class="el" href="class_o_n___line.html">ON_Line</a> &amp;, const <a class="el" href="class_o_n___curve.html">ON_Curve</a> &amp;, <a class="el" href="class_o_n___interval.html">ON_Interval</a>, const <a class="el" href="class_o_n__3d_point.html">ON_3dPoint</a> &amp;, <a class="el" href="class_o_n__3d_point.html">ON_3dPoint</a> &amp;, double *, double *)</td></tr>
 <tr class="separator:gadb2ea749d26e731ebd5b51722d17cb76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6246630871ab00dadff34c00c689952c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__open_n_u_r_b_s.html#ga59fb488a26cef0e7bf900a815eb92b88">ON_DECL</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__open_n_u_r_b_s.html#ga6246630871ab00dadff34c00c689952c">ON_ClosestPointBetweenQuads</a> (const <a class="el" href="class_o_n__3d_point.html">ON_3dPoint</a> A[4], const <a class="el" href="class_o_n__3d_point.html">ON_3dPoint</a> B[4], double a[4], double b[4])</td></tr>
@@ -3449,6 +3466,8 @@ Functions</h2></td></tr>
 <tr class="separator:ga4f084422d7538c2f3ce0a768787b2d79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae91e30126237ad5090b61f79e8c9e33e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__open_n_u_r_b_s.html#ga59fb488a26cef0e7bf900a815eb92b88">ON_DECL</a> <a class="el" href="group__open_n_u_r_b_s.html#ga3c46136e2570983319c47553f753932e">ON__UINT64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__open_n_u_r_b_s.html#gae91e30126237ad5090b61f79e8c9e33e">ON_SecondsSinceJanOne1970UTC</a> ()</td></tr>
 <tr class="separator:gae91e30126237ad5090b61f79e8c9e33e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa4177c60192db9cf7b17aa9b642433b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__open_n_u_r_b_s.html#ga59fb488a26cef0e7bf900a815eb92b88">ON_DECL</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__open_n_u_r_b_s.html#gaa4177c60192db9cf7b17aa9b642433b4">ON_SendLogMessageToCloud</a> (<a class="el" href="group__open_n_u_r_b_s.html#ga7396c5ac81bf2400211f68669416178f">ON_LogMessageType</a> msg_type, const wchar_t *wszClass, const wchar_t *wszEventDesc, const wchar_t *wszMessage)</td></tr>
+<tr class="separator:gaa4177c60192db9cf7b17aa9b642433b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga931a495a16d483c03f0366ce6772fc42"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__open_n_u_r_b_s.html#ga931a495a16d483c03f0366ce6772fc42">ON_SetBinaryArchiveOpenNURBSVersion</a> (<a class="el" href="class_o_n___binary_archive.html">ON_BinaryArchive</a> &amp;, unsigned int)</td></tr>
 <tr class="separator:ga931a495a16d483c03f0366ce6772fc42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3f554e910a88405a264efb909f27eb24"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__open_n_u_r_b_s.html#ga59fb488a26cef0e7bf900a815eb92b88">ON_DECL</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__open_n_u_r_b_s.html#ga3f554e910a88405a264efb909f27eb24">ON_SetCurveCurveIntersectionDir</a> (<a class="el" href="class_o_n__3d_vector.html">ON_3dVector</a> N, int xcount, <a class="el" href="class_o_n___x___e_v_e_n_t.html">ON_X_EVENT</a> *xevent, double a0, double a1, double b0, double b1)</td></tr>
@@ -3461,6 +3480,8 @@ Functions</h2></td></tr>
 <tr class="separator:gaab0c5f2e4257f27c8d48c1f7a66585cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2aced1db180d5628266bc133898cb2fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__open_n_u_r_b_s.html#ga59fb488a26cef0e7bf900a815eb92b88">ON_DECL</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__open_n_u_r_b_s.html#ga2aced1db180d5628266bc133898cb2fb">ON_SetKnotVectorDomain</a> (int order, int cv_count, double *knot, double t0, double t1)</td></tr>
 <tr class="separator:ga2aced1db180d5628266bc133898cb2fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga813137da3f56a00cbe614c66624f9aca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__open_n_u_r_b_s.html#ga59fb488a26cef0e7bf900a815eb92b88">ON_DECL</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__open_n_u_r_b_s.html#ga813137da3f56a00cbe614c66624f9aca">ON_SetSendLogMessageToCloudProc</a> (<a class="el" href="group__open_n_u_r_b_s.html#gae3fccdaf95d0ef5a5110071f699b9e23">ON_SSLMTC_PROC</a>)</td></tr>
+<tr class="separator:ga813137da3f56a00cbe614c66624f9aca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae6b2a332cea869992edf4f1bb5f2ef47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__open_n_u_r_b_s.html#ga59fb488a26cef0e7bf900a815eb92b88">ON_DECL</a> <a class="el" href="group__open_n_u_r_b_s.html#ga3c46136e2570983319c47553f753932e">ON__UINT64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__open_n_u_r_b_s.html#gae6b2a332cea869992edf4f1bb5f2ef47">ON_SetWorkerThreadContext</a> (void(*fTerminateThreadFunction)(ON__UINT_PTR), ON__UINT_PTR function_parameter)</td></tr>
 <tr class="separator:gae6b2a332cea869992edf4f1bb5f2ef47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gafde0675e15674675b9b380a53f6bd093"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__open_n_u_r_b_s.html#ga59fb488a26cef0e7bf900a815eb92b88">ON_DECL</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__open_n_u_r_b_s.html#gafde0675e15674675b9b380a53f6bd093">ON_SimpleQuadraticMinimize</a> (int(*f)(void *, double, double *), void *f_arg, double ax, double bx, double cx, double desired_min, double stop_tol, int max_it, double *t_addr=0, double *min_f=0)</td></tr>
@@ -11774,6 +11795,20 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="gae3fccdaf95d0ef5a5110071f699b9e23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae3fccdaf95d0ef5a5110071f699b9e23">&#9670;&nbsp;</a></span>ON_SSLMTC_PROC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void(* ON_SSLMTC_PROC) (int msg_type, const <a class="el" href="class_o_n__w_string.html">ON_wString</a> *pClass, const <a class="el" href="class_o_n__w_string.html">ON_wString</a> *pEventDesc, const <a class="el" href="class_o_n__w_string.html">ON_wString</a> *pMessage)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="gaa68f2582241a3e60e96e828851703abc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaa68f2582241a3e60e96e828851703abc">&#9670;&nbsp;</a></span>ON_StreamCallbackFunction</h2>
 
@@ -12085,6 +12120,37 @@ Variables</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="gga286869b78f5da2ac0b9513870aad3b28ae1ba155a9f2e8c3be94020eef32a0301"></a>Manual&#160;</td><td class="fielddoc"><p>Fully manual focus. </p>
 </td></tr>
+</table>
+
+</div>
+</div>
+<a id="ga7396c5ac81bf2400211f68669416178f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7396c5ac81bf2400211f68669416178f">&#9670;&nbsp;</a></span>ON_LogMessageType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__open_n_u_r_b_s.html#ga7396c5ac81bf2400211f68669416178f">ON_LogMessageType</a> : int</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>#include "opennurbs_plus_validate.h" </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga7396c5ac81bf2400211f68669416178faad921d60486366258809553a3db49a4a"></a>unknown&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga7396c5ac81bf2400211f68669416178fabb3ccd5881d651448ded1dac904054ac"></a>information&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga7396c5ac81bf2400211f68669416178fa7b83d3f08fa392b79e3f553b585971cd"></a>warning&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga7396c5ac81bf2400211f68669416178facb5e100e5a9a3e7f6d1fd97512215282"></a>error&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga7396c5ac81bf2400211f68669416178fae44e4612f62d2fb8f8738bab118a9850"></a>assert&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -17270,7 +17336,7 @@ template&lt;class T &gt; </div>
 </div>
 </div>
 <a id="ga96f81778e55428c6edda300c8a7a5586"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga96f81778e55428c6edda300c8a7a5586">&#9670;&nbsp;</a></span>ON_ClosedCurveOrientation()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga96f81778e55428c6edda300c8a7a5586">&#9670;&nbsp;</a></span>ON_ClosedCurveOrientation() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -17294,7 +17360,35 @@ template&lt;class T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Description: Determine the orientaion (counterclockwise or clockwise) of a closed planar curve. Paramters: curve - [in] simple (no self intersections) closed planar curve xform - [in] Transformation to map the curve to the xy plane. If the curve is parallel to the xy plane, you may pass nullptr. Returns: +1: The curve's orientation is counter clockwise in the xy plane. -1: The curve's orientation is clockwise in the xy plane. 0: Unable to compute the curve's orientation. </p>
+<p>Description: Determine the orientaion (counterclockwise or clockwise) of a closed planar curve. Paramters: curve - [in] simple (no self intersections) closed planar curve xform - [in] Transformation to map the curve to the xy plane. If the curve is parallel to the xy plane, you may pass nullptr. plane - [in] If curve is on plane then determine the orientation in relation to plane's orientation. Returns: +1: The curve's orientation is counter clockwise in the xy plane. -1: The curve's orientation is clockwise in the xy plane. 0: Unable to compute the curve's orientation. </p>
+
+</div>
+</div>
+<a id="ga1cf9959197da04320f51ab032abfa321"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1cf9959197da04320f51ab032abfa321">&#9670;&nbsp;</a></span>ON_ClosedCurveOrientation() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__open_n_u_r_b_s.html#ga59fb488a26cef0e7bf900a815eb92b88">ON_DECL</a> int ON_ClosedCurveOrientation </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_o_n___curve.html">ON_Curve</a> &amp;&#160;</td>
+          <td class="paramname"><em>curve</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_o_n___plane.html">ON_Plane</a> &amp;&#160;</td>
+          <td class="paramname"><em>plane</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -18161,7 +18255,7 @@ template&lt;class T &gt; </div>
 <p>sWideChar_capacity - [in] If sWideChar_capacity &gt; 0, then it specifies the number of available wchar_t elements in the sWideChar[] buffer.</p>
 <p>If sWideChar_count == 0, then the sWideChar parameter is ignored.</p>
 <p>error_status - [out] If error_status is not null, then bits of *error_status are set to indicate the success or failure of the conversion. When the error_mask parameter is used to used to mask some conversion errors, multiple bits may be set. 0: Successful conversion with no errors. 1: The input parameters were invalid. This error cannot be masked. 2: The ouput buffer was not large enough to hold the converted string. As much conversion as possible is performed in this case and the error cannot be masked. 16: An illegal encoding sequence occurred. The illegal sequence is replaced with a single ON_wString::ReplacementCharacter in the output string and parsing continues.</p>
-<p>Returns: If sWideChar_capacity &gt; 0, the return value is the number of wchar_t elements written to sWideChar[]. When the return value &lt; sWideChar_count, a null terminator is written to sWideChar[return value].</p>
+<p>Returns: If sWideChar_capacity &gt; 0, the return value is the number of wchar_t elements written to sWideChar[]. When the return value &lt; sWideChar_capacity, a null terminator is written to sWideChar[return value].</p>
 <p>If sWideChar_count == 0, the return value is the minimum number of wchar_t elements that are needed to hold the converted string. The return value does not include room for a null terminator. Increment the return value by one if you want to have an element to use for a null terminator. </p>
 
 </div>
@@ -34800,6 +34894,46 @@ higuy &lt; loguy
 
 </div>
 </div>
+<a id="gaa4177c60192db9cf7b17aa9b642433b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa4177c60192db9cf7b17aa9b642433b4">&#9670;&nbsp;</a></span>ON_SendLogMessageToCloud()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__open_n_u_r_b_s.html#ga59fb488a26cef0e7bf900a815eb92b88">ON_DECL</a> void ON_SendLogMessageToCloud </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__open_n_u_r_b_s.html#ga7396c5ac81bf2400211f68669416178f">ON_LogMessageType</a>&#160;</td>
+          <td class="paramname"><em>msg_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const wchar_t *&#160;</td>
+          <td class="paramname"><em>wszClass</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const wchar_t *&#160;</td>
+          <td class="paramname"><em>wszEventDesc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const wchar_t *&#160;</td>
+          <td class="paramname"><em>wszMessage</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ga931a495a16d483c03f0366ce6772fc42"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga931a495a16d483c03f0366ce6772fc42">&#9670;&nbsp;</a></span>ON_SetBinaryArchiveOpenNURBSVersion()</h2>
 
@@ -35057,6 +35191,24 @@ higuy &lt; loguy
       </table>
 </div><div class="memdoc">
 <p>Description: Set the domain of a knot vector. Parameters: order - [in] order &gt;= 2 cv_count - [in] cv_count &gt;= order knot - [in/out] input existing knots and returns knots with new domain. t0 - [in] t1 - [in] New domain will be the interval (t0,t1). Returns: True if input is valid and the returned knot vector has the requested domain. False if the input is invalid, in which case the input knot vector is not changed. </p>
+
+</div>
+</div>
+<a id="ga813137da3f56a00cbe614c66624f9aca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga813137da3f56a00cbe614c66624f9aca">&#9670;&nbsp;</a></span>ON_SetSendLogMessageToCloudProc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__open_n_u_r_b_s.html#ga59fb488a26cef0e7bf900a815eb92b88">ON_DECL</a> void ON_SetSendLogMessageToCloudProc </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__open_n_u_r_b_s.html#gae3fccdaf95d0ef5a5110071f699b9e23">ON_SSLMTC_PROC</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -46976,7 +47128,7 @@ template&lt;class T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 3 2018 17:53:42 for Rhino C++ API by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue May 8 2018 15:57:23 for Rhino C++ API by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

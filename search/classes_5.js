@@ -67,6 +67,7 @@ var searchData=
   ['irhrdkcontenteditorcustombuttoninterface',['IRhRdkContentEditorCustomButtonInterface',['../class_i_rh_rdk_content_editor_custom_button_interface.html',1,'']]],
   ['irhrdkcontenteditorsettings',['IRhRdkContentEditorSettings',['../class_i_rh_rdk_content_editor_settings.html',1,'']]],
   ['irhrdkcontentfactories',['IRhRdkContentFactories',['../class_i_rh_rdk_content_factories.html',1,'']]],
+  ['irhrdkcontentfactoriesex',['IRhRdkContentFactoriesEx',['../class_i_rh_rdk_content_factories_ex.html',1,'']]],
   ['irhrdkcontentfactory',['IRhRdkContentFactory',['../class_i_rh_rdk_content_factory.html',1,'']]],
   ['irhrdkcontentfilters',['IRhRdkContentFilters',['../class_i_rh_rdk_content_filters.html',1,'']]],
   ['irhrdkcontentioplugin',['IRhRdkContentIOPlugIn',['../class_i_rh_rdk_content_i_o_plug_in.html',1,'']]],
