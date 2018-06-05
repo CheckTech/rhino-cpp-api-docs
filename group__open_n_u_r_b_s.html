@@ -1043,6 +1043,11 @@ Macros</h2></td></tr>
 <tr class="separator:ga8e02e8726d020c7d80597ada8d944906"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac28499550dc416cf6703e3526640e91f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__open_n_u_r_b_s.html#gac28499550dc416cf6703e3526640e91f">ON_ASSERT_OR_RETURNVOID</a>(cond)&#160;&#160;&#160;do{if (!(cond)) {<a class="el" href="group__open_n_u_r_b_s.html#ga9ee90ba24795b7193bfe895d166f7f17">ON_ErrorEx</a>(__FILE__,__LINE__,<a class="el" href="group__open_n_u_r_b_s.html#gad3371f6e7dfb84e72ff53cb3a453e786">OPENNURBS__FUNCTION__</a>, #cond &quot; is false&quot;);return;}}while(0)</td></tr>
 <tr class="separator:gac28499550dc416cf6703e3526640e91f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae492a9a6576a7efcfbc3ecd5002c3fd9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__open_n_u_r_b_s.html#gae492a9a6576a7efcfbc3ecd5002c3fd9">ON_AtomicDecrementInt32</a>(ptr_int32)&#160;&#160;&#160;(--(*ptr_int32))</td></tr>
+<tr class="memdesc:gae492a9a6576a7efcfbc3ecd5002c3fd9"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="group__open_n_u_r_b_s.html#gae492a9a6576a7efcfbc3ecd5002c3fd9" title="ON_AtomicDecrementInt32(int* ptr_int32) ">ON_AtomicDecrementInt32(int* ptr_int32)</a>  <a href="#gae492a9a6576a7efcfbc3ecd5002c3fd9">More...</a><br /></td></tr>
+<tr class="separator:gae492a9a6576a7efcfbc3ecd5002c3fd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga01ddb54006d7902d80a070db624cebc4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__open_n_u_r_b_s.html#ga01ddb54006d7902d80a070db624cebc4">ON_AtomicIncrementInt32</a>(ptr_int32)&#160;&#160;&#160;(++(*ptr_int32))</td></tr>
+<tr class="separator:ga01ddb54006d7902d80a070db624cebc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga29e1849094cd38666849f5b5d09109c4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__open_n_u_r_b_s.html#ga29e1849094cd38666849f5b5d09109c4">ON_BEGIN_EXTERNC</a>&#160;&#160;&#160;extern &quot;C&quot; {</td></tr>
 <tr class="separator:ga29e1849094cd38666849f5b5d09109c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad0bcf9ef6dd1615879df747010a25a05"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__open_n_u_r_b_s.html#gad0bcf9ef6dd1615879df747010a25a05">ON_CALLBACK_CDECL</a></td></tr>
@@ -4492,6 +4497,54 @@ Variables</h2></td></tr>
           <td class="paramtype">&#160;</td>
           <td class="paramname">cond</td><td>)</td>
           <td>&#160;&#160;&#160;do{if (!(cond)) {<a class="el" href="group__open_n_u_r_b_s.html#ga9ee90ba24795b7193bfe895d166f7f17">ON_ErrorEx</a>(__FILE__,__LINE__,<a class="el" href="group__open_n_u_r_b_s.html#gad3371f6e7dfb84e72ff53cb3a453e786">OPENNURBS__FUNCTION__</a>, #cond &quot; is false&quot;);return;}}while(0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gae492a9a6576a7efcfbc3ecd5002c3fd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae492a9a6576a7efcfbc3ecd5002c3fd9">&#9670;&nbsp;</a></span>ON_AtomicDecrementInt32</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ON_AtomicDecrementInt32</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ptr_int32</td><td>)</td>
+          <td>&#160;&#160;&#160;(--(*ptr_int32))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="group__open_n_u_r_b_s.html#gae492a9a6576a7efcfbc3ecd5002c3fd9" title="ON_AtomicDecrementInt32(int* ptr_int32) ">ON_AtomicDecrementInt32(int* ptr_int32)</a> </p>
+<dl class="section rcs"><dt>NoKeywords</dt><dd></dd></dl>
+<p>/ / Copyright (c) 1993-2018 Robert McNeel &amp; Associates. All rights reserved. / OpenNURBS, Rhinoceros, and Rhino3D are registered trademarks of Robert / McNeel &amp; Associates. / / THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT EXPRESS OR IMPLIED WARRANTY. / ALL IMPLIED WARRANTIES OF FITNESS FOR ANY PARTICULAR PURPOSE AND OF / MERCHANTABILITY ARE HEREBY DISCLAIMED. / / For complete openNURBS copyright information see <a href="http://www.opennurbs.org">http://www.opennurbs.org</a>. / ////////////////////////////////////////////////////////////// Description: Expert user tool to decrement the value of the parameter as an atomic operation.</p>
+<p>Parameters: ptr_int32 - [in] A non-null pointer to a signed 32-bit integer.</p>
+<p>Returns: Decremented value.</p>
+<p>Example: int i = 3; / j will be 2 int j = <a class="el" href="group__open_n_u_r_b_s.html#gae492a9a6576a7efcfbc3ecd5002c3fd9" title="ON_AtomicDecrementInt32(int* ptr_int32) ">ON_AtomicDecrementInt32(&amp;i)</a>;</p>
+<p>Remarks: Caller is responsible for insuring ptr_int32 is not nullptr. Description: Expert user tool to increment the value of the parameter as an atomic operation.</p>
+<p>Parameters: ptr_int32 - [in] A non-null pointer to a signed 32-bit integer.</p>
+<p>Returns: Incremented value.</p>
+<p>Example: int i = 3; / j will be 4 int j = <a class="el" href="group__open_n_u_r_b_s.html#ga01ddb54006d7902d80a070db624cebc4">ON_AtomicIncrementInt32(&amp;i)</a>;</p>
+<p>Remarks: Caller is responsible for insuring ptr_int32 points to a signed 32-bit integer.ON_AtomicIncrementInt32(int* ptr_int32) NOT thread safe </p>
+
+</div>
+</div>
+<a id="ga01ddb54006d7902d80a070db624cebc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga01ddb54006d7902d80a070db624cebc4">&#9670;&nbsp;</a></span>ON_AtomicIncrementInt32</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ON_AtomicIncrementInt32</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ptr_int32</td><td>)</td>
+          <td>&#160;&#160;&#160;(++(*ptr_int32))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -47131,7 +47184,7 @@ template&lt;class T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed May 30 2018 13:54:49 for Rhino C++ API by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jun 5 2018 10:15:07 for Rhino C++ API by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
